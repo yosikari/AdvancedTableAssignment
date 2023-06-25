@@ -1,0 +1,43 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.pagination-action {
+    display: flex;
+    gap: 1.5em;
+
+    svg {
+        font-size: 1.2em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.pagination-dropdown {
+    display: flex;
+    gap: .2em;
+
+    select {
+        height: 1.5em;
+        width: 6em;
+        align-self: center;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .pagination-container {
+        gap: .6em;
+    }
+
+    .pagination-action {
+        gap: .2em;
+    }
+}

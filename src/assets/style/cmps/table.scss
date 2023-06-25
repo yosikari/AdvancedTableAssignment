@@ -1,0 +1,88 @@
+.table-container {
+  margin: 0 auto;
+}
+
+.scroll-container {
+  max-height: 65vh;
+  overflow-y: scroll;
+  box-sizing: content-box;
+
+  &::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary-color;
+    border-radius: 5px;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: $table-bg-color;
+  margin-bottom: 20px;
+  max-height: 80vh;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid $secondary-color;
+  text-align: center;
+
+  input {
+    text-align: center;
+  }
+}
+
+.table th {
+  background-color: $table-header-bg-color;
+}
+
+.table td {
+  &:hover {
+    background-color: $table-row-hover-bg-color;
+  }
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.checkbox-input {
+  margin-right: 5px;
+}
+
+.text-input {
+  width: 97%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.save-button {
+  background-color: $success-color;
+  color: $white-color;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  @include box-shadow(1px);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($success-color, 10%);
+  }
+}
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    background-color: $secondary-color;
+    height: 1em;
+    width: 100%;
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        gap: .2em;
+
+        svg {
+            font-size: 1.2em;
+        }
+
+        a {
+            color: $main-color;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .footer-container {
+        display: none;
+    }
+}

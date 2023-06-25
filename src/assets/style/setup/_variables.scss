@@ -1,0 +1,51 @@
+// Color palette
+$main-color: #323338;
+$primary-color: #007bff;
+$secondary-color: #e6e9ef;
+$success-color: #28a745;
+$error-color: #dc3545;
+$white-color: #ffffff;
+$table-bg-color: #f8f9fa;
+$table-header-bg-color: $secondary-color;
+$table-row-hover-bg-color: lighten($table-bg-color, 8%);
+
+//Bgc
+$main-bgc-white: #fff;
+$kanban-list-bgc: #f7f6fb;
+//Main Box Shadow
+$main-box-shadow: 0 1px 7px 0 rgb(128, 128, 128);
+//Side Nav
+$side-nav-bgc: rgb(41, 47, 76);
+//Side Bar
+$main-side-bar-bgc: #f6f7fb;
+
+// icons color
+$icon-color: #676879;
+
+//Btns-Colors
+$btn-green: rgb(37, 135, 80);
+$btn-blue: #0073ea;
+
+// border
+$cell-border-color: #d0d4e4;
+$border-cell: 0.7px solid $cell-border-color;
+$nav-spacer : #e6e9ef;
+
+//height 
+$cell-height: 36px;
+
+//width
+$button-width: 360px;
+
+// Layout
+$layoutPadding: 17px;
+$commonFontSize: 14px;
+
+// Breakpoints
+$mobile-breakpoint: 555px;
+$narrow-breakpoint: 700px;
+$normal-breakpoint: 1000px;
+
+$padded-break-small: $mobile-breakpoint + $layoutPadding * 2;
+$padded-break-medium: $narrow-breakpoint + $layoutPadding * 2;
+$padded-break-large: $normal-breakpoint + $layoutPadding * 2;

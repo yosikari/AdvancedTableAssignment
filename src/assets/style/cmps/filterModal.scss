@@ -1,0 +1,72 @@
+.darken-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+    transition: opacity 0.4s;
+
+    &:hover {
+        opacity: .32;
+    }
+}
+
+.filter-modal-container {
+    position: absolute;
+    z-index: 10;
+    width: 80%;
+    height: 40%;
+    margin-inline-start: 20px;
+    background-color: $white-color;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .close-btn {
+        font-size: 1.2em;
+        margin-bottom: .5em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.filter-modal-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-modal-body {
+    margin-top: .2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: auto;
+    max-height: calc(100% - 100px);
+}
+
+.filter-modal-property {
+    width: 33%;
+    margin-top: 1.2em;
+}
+
+@media only screen and (max-width: $narrow-breakpoint) {
+    .filter-modal-container {
+        width: 90%;
+        height: 50%;
+        margin-inline-start: 5%;
+    }
+
+    .filter-modal-property {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .filter-modal-container {
+        width: 95%;
+        height: 60%;
+        margin-inline-start: 2.5%;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: rem(18px);
+  margin: 0;
+  margin: auto;
+  color: $main-color;
+  font-family: roboto-regular;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  @include btn;
+}
+
+.container {
+  padding: 20px;
+}

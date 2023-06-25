@@ -1,0 +1,11 @@
+.bool-toggle-cell {
+    @include flex-center;
+
+    .bool-icon {
+        font-size: 1.4em;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
