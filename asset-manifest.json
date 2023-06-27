@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AdvancedTableAssignment/static/css/main.4442a565.css",
-    "main.js": "/AdvancedTableAssignment/static/js/main.50fc536b.js",
+    "main.css": "/AdvancedTableAssignment/static/css/main.60dc3252.css",
+    "main.js": "/AdvancedTableAssignment/static/js/main.a5646a06.js",
     "static/media/Roboto-Thin.ttf": "/AdvancedTableAssignment/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
     "static/media/Roboto-Regular.ttf": "/AdvancedTableAssignment/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Black.ttf": "/AdvancedTableAssignment/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
@@ -12,11 +12,11 @@
     "static/media/Poppins-Medium.ttf": "/AdvancedTableAssignment/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-SemiBold.ttf": "/AdvancedTableAssignment/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "index.html": "/AdvancedTableAssignment/index.html",
-    "main.4442a565.css.map": "/AdvancedTableAssignment/static/css/main.4442a565.css.map",
-    "main.50fc536b.js.map": "/AdvancedTableAssignment/static/js/main.50fc536b.js.map"
+    "main.60dc3252.css.map": "/AdvancedTableAssignment/static/css/main.60dc3252.css.map",
+    "main.a5646a06.js.map": "/AdvancedTableAssignment/static/js/main.a5646a06.js.map"
   },
   "entrypoints": [
-    "static/css/main.4442a565.css",
-    "static/js/main.50fc536b.js"
+    "static/css/main.60dc3252.css",
+    "static/js/main.a5646a06.js"
   ]
 }
