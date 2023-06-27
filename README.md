@@ -1,5 +1,4 @@
 # Advanced Table Assignment
-# Advanced Table Assignment
 
 <img src="/readme-images/index.png" />
 
@@ -19,7 +18,6 @@ This project is a React application that demonstrates an advanced table with var
 - Search: The table provides a search functionality that allows users to search for specific values within each column.
 - Editable Data: Users can edit the data directly in the table. All variable types, including boolean, numbers, and strings, are supported.
 - Data Persistence: The application saves the updated information in the local storage. Before uploading data, it attempts to retrieve the data from local storage to minimize server calls in the future.
-- Sort Columns: Users can sort the table data by clicking on the column headers. Clicking on a column header will toggle the sorting order between ascending and descending. The sorted data is dynamically updated and displayed in the table.
 
 ## Technologies Used
 
