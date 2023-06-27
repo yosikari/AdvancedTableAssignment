@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Advanced Table Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="/readme-images/index.png" />
 
-## Available Scripts
+This project is a React application that demonstrates an advanced table with various features. The live demo of the project can be found at [https://yosikari.github.io/AdvancedTableAssignment/](https://yosikari.github.io/AdvancedTableAssignment/).
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Contact Me](#contact-me)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Table Pagination: The table is rendered with pagination to efficiently handle large datasets. Only one page of data is loaded at a time, reducing the amount of data rendered and improving performance.
+- Column Filter: Users can hide or show specific columns in the table by using the column filter feature. Clicking the filter button opens a modal where users can choose which columns they want to display.
+- Search: The table provides a search functionality that allows users to search for specific values within each column.
+- Editable Data: Users can edit the data directly in the table. All variable types, including boolean, numbers, and strings, are supported.
+- Data Persistence: The application saves the updated information in the local storage. Before uploading data, it attempts to retrieve the data from local storage to minimize server calls in the future.
+- Sort Columns: Users can sort the table data by clicking on the column headers. Clicking on a column header will toggle the sorting order between ascending and descending. The sorted data is dynamically updated and displayed in the table.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is built using the following technologies:
 
-### `npm run build`
+- React
+- SCSS (Sass)
+- react-hot-toast
+- react-icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   `git clone https://github.com/yosikari/AdvancedTableAssignment.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   `npm start`
 
-## Learn More
+   The website should be available at [http://localhost:3000/](http://localhost:3000/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Components Tree
+<img src="/readme-images/tree.png" weight='600'/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact Me
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or feedback about the project, please feel free to reach out to me at yosikari@gmail.com.
