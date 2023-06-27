@@ -1,4 +1,5 @@
 # Advanced Table Assignment
+# Advanced Table Assignment
 
 <img src="/readme-images/index.png" />
 
