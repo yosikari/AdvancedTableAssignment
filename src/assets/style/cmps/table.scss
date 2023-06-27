@@ -43,6 +43,12 @@
   background-color: $table-header-bg-color;
 }
 
+.column-title{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .table td {
   &:hover {
     background-color: $table-row-hover-bg-color;
