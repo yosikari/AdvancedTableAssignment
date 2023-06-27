@@ -1,6 +1,6 @@
 # Advanced Table Assignment
 
-<img src="/readme-images/index.png" />
+<img src="/readme-media/index.png" />
 
 This project is a React application that demonstrates an advanced table with various features. The live demo of the project can be found at [https://yosikari.github.io/AdvancedTableAssignment/](https://yosikari.github.io/AdvancedTableAssignment/).
 
@@ -47,7 +47,7 @@ To run the project locally, follow these steps:
    The website should be available at [http://localhost:3000/](http://localhost:3000/).
 
 ## Components Tree
-<img src="/readme-images/tree.png" weight='600'/>
+<img src="/readme-media/tree.png" weight='600'/>
 
 ## Contact Me
 
